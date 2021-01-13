@@ -1,0 +1,32 @@
+main div.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+} 
+
+main div.cards > div{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 32px;
+    min-width: 432px;
+    text-align: center;
+} 
+
+main div.cards > div img{
+    height: 80px;
+} 
+
+main div.cards > div p{
+    color: rgb(80,80,80);
+    line-height: 24px;
+} 
+
+main div.cards > div h3 {
+    color: rgb(50,50,50);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28.6px;
+} 
